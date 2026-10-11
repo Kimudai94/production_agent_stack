@@ -1,0 +1,15 @@
+model:
+  model_id: "qwen3-14b-instruct"
+  api_base: "http://localhost:1234/v1"
+  temperature: 0.2
+  max_tokens: 4096
+
+pipeline:
+  max_agents: 4
+  timeout_per_agent_seconds: 300
+  fail_fast_on_error: true
+
+logging:
+  level: INFO
+  save_to_file: true
+  log_dir: "logs/"

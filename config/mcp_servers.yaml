@@ -1,0 +1,22 @@
+servers:
+  - name: filesystem
+    command: "npx"
+    args:
+      - "-y"
+      - "@modelcontextprotocol/server-filesystem"
+      - "."
+    enabled: true
+    
+  - name: git
+    command: "npx"
+    args:
+      - "-y"
+      - "@modelcontextprotocol/server-git"
+    enabled: true
+    
+  - name: docker
+    command: "npx"
+    args:
+      - "-y"
+      - "@modelcontextprotocol/server-docker"
+    enabled: false

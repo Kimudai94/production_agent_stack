@@ -1,0 +1,20 @@
+agents:
+  - role: RequirementAnalyzer
+    priority: 1
+    temperature: 0.3
+    max_steps: 5
+    
+  - role: SystemDesigner
+    priority: 2
+    temperature: 0.2
+    max_steps: 7
+    
+  - role: CodeGenerator
+    priority: 3
+    temperature: 0.1
+    max_steps: 15
+    
+  - role: QualityChecker
+    priority: 4
+    temperature: 0.3
+    max_steps: 10
