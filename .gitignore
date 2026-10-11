@@ -1,27 +1,6 @@
-# Python
-__pycache__/
-*.py[cod]
-*$py.class
-*.so
-.Python
-
-# Environment
-venv/
-.venv/
-
-# Checkpoints (nur ausgewählte!)
-checkpoints/*.json
-
-# Output
-output/
+checkpoints/
 logs/
-
-# IDE
-.vscode/
-.idea/
-*.swp
-*.swo
-
-# OS
-.DS_Store
-Thumbs.db
+output/
+*.bak
+__pycache__/
+venv/
